@@ -1,0 +1,23 @@
+Sal
+Version 1.1.0.
+---------------------------------------------------------------------------------------------------------------------------
+Purpose:
+	I was working with creating multiple files across multiple computers. And things started getting confusing when I
+was tranferring too many files to keep track on which file was where. I realized there was a pythonic way to do all this.
+So I started developing Sal. Sal is a dropbox-like file merge system but instead of autosyncing, at the moment he just col-
+lects files from both of my drops, which is where I drop important files yet to be sorted, and puts them in a central loca-
+tion.
+---------------------------------------------------------------------------------------------------------------------------
+Update Notes
+1.0.0
+	Stable. Running as should. Redementary in design and focus. Semi-automated file mover.
+1.1.0
+	Added the __name__ function for importing, added text and py file merging to appropriate folders within destination.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+Improvements, Bugs, Fixes:
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
