@@ -10,7 +10,7 @@ tion.
 ---------------------------------------------------------------------------------------------------------------------------
 Update Notes
 1.0.0
-	Stable. Running as should. Redementary in design and focus. Semi-automated file mover.
+	Stable. Running as should. Sal is rudimentary in design. Semi-automated file mover.
 1.1.0
 	Added the __name__ function for importing, added text and py file merging to appropriate folders within destination.
 
