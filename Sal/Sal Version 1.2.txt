@@ -1,5 +1,5 @@
 Sal
-Version 1.1.0.
+Current Version 1.2.0.
 ---------------------------------------------------------------------------------------------------------------------------
 Purpose:
 	I was working with creating multiple files across multiple computers. Things started to get confusing when I
@@ -12,11 +12,11 @@ Update Notes
 	Stable. Running as should. Sal is rudimentary in design. Semi-automated file mover.
 1.1.0
 	Added the __name__ function for importing, added text and py file merging to appropriate folders within destination.
-
-
+1.2.0
+	Added png file merging to appropriate folders within destination. Added Clide integration.
 ---------------------------------------------------------------------------------------------------------------------------
 Improvements, Bugs, Fixes:
-
+Better use of the __name__ function needed for importing from Clide Bot option.
 
 
 ---------------------------------------------------------------------------------------------------------------------------

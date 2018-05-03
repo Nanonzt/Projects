@@ -2,7 +2,7 @@ import shutil, os, time
 
 
 # File Merge Program - Collects files from a drop, then sorts it into the destination
-# Version 1.1.0.
+# Version 1.2.0.
 # ------------------Beginning of Program ------------------------
 print('Initializing...')
 # Paths
@@ -11,7 +11,7 @@ workstationPc = 'C:/Users/Tyler/Desktop/Drop/'
 USB = 'D:/Python/'
 USBText = 'D:/Python/Texts/'
 USBPy = 'D:/Python/Scripts/'
-
+USB_PNG_Files = 'D:/Python/PNGFiles/'
 
 def move(src, dst):
     # Checks whether the path is active to start process
@@ -41,6 +41,7 @@ if __name__ == '__main__':
             print('Starting Up Transfer\n')
             time.sleep(0.5)
             # Checking which path to sync data from
+# -----------Beginning Move ---------------
             if os.path.exists(surfacePc):
                 move(surfacePc, USB)
                 # Redirecting files to their appropriate places within destination
@@ -51,6 +52,9 @@ if __name__ == '__main__':
                     if f.endswith('py'):
                         shutil.move(USB+f, USBPy)
 
+                    if f.endswith('png'):
+                        shutil.move(USB+f, USB_PNG_Files)
+# -----------Multi-computer/destination setup ----------------
             else:
                 move(workstationPc, USB)
                 # Redirecting files to their appropriate places within destination
@@ -60,6 +64,9 @@ if __name__ == '__main__':
 
                     if f.endswith('py'):
                         shutil.move(USB + f, USBPy)
+
+                    if f.endswith('png'):
+                        shutil.move(USB+f, USB_PNG_Files)
 
             print('Complete')
             time.sleep(1)
