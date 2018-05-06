@@ -6,8 +6,8 @@ import Sal
 # Personal Assistant Bot - Opens up daily charts and information about crypto-currency
 # Version 1.4.0.
 # -----------------------Beginning of Program ------------------
-name = 'Tyler'
-greeting = 'Hello Master {}, and what can I assist you with today?\n'.format(name)
+name = 'Name'
+greeting = 'Hello {}, and what can I assist you with today?\n'.format(name)
 affirm = ('Your wish is my command, sir.\n')
 
 print(greeting)
@@ -16,7 +16,7 @@ print(greeting)
 url_dict = {'tradingViewURL': 'https://www.tradingview.com/chart/MXFuP9og/',
                 'coinMarketCapURL': 'https://coinmarketcap.com/charts/',
                 'nanexURL': 'https://nanex.co/exchange/BTCPNANO/',
-                'twitterURL': 'https://twitter.com/?lang=en',
+                'twitterURL': 'https://twitter.com/',
                 'coinDeskURL': 'https://www.coindesk.com/'}
 
 while True:
